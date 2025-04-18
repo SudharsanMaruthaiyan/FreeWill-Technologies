@@ -37,7 +37,7 @@ const Navbar = () => {
             <a href="/about">About Us</a>
           </li>
           <li className="font-medium font-[Nunito] hover:border-b-2 hover:border-b-blue-800 border-2 border-white transition-all duration-500 ease-in-out">
-            <a href="/service">Service</a>
+            <a href="/service">Services</a>
           </li>
           <li className="font-medium font-[Nunito] hover:border-b-2 hover:border-b-blue-800 border-2 border-white transition-all duration-500 ease-in-out">
             <a href="/contact">Contact</a>

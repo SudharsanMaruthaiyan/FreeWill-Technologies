@@ -12,6 +12,9 @@ import {
   Database,
   Server,
   Clock,
+  Lightbulb,
+  GraduationCap,
+  Smartphone,
 } from "lucide-react";
 
 const Offer = () => {
@@ -20,8 +23,6 @@ const Offer = () => {
   const tabs = [
     { id: "who", label: "Who", icon: <Users className="w-5 h-5" /> },
     { id: "what", label: "What", icon: <Package className="w-5 h-5" /> },
-    { id: "how", label: "How", icon: <Search className="w-5 h-5" /> },
-    { id: "where", label: "Where", icon: <MapPin className="w-5 h-5" /> },
   ];
 
   // Content for each tab
@@ -53,70 +54,26 @@ const Offer = () => {
     what: [
       {
         title: "Web Development",
-        description: "Custom websites and applications tailored to your needs",
-        icon: <Code className="w-10 h-10" />,
+        description: "Responsive and dynamic websites built with modern technologies tailored to your business needs.",
+        icon: <Code className="w-10 h-10 text-[#1E9CD7]" />,
       },
       {
-        title: "Cloud Solutions",
-        description: "Scalable infrastructure and hosting services",
-        icon: <Server className="w-10 h-10" />,
+        title: "App Development",
+        description: "Cross-platform mobile applications with seamless UI/UX and robust performance.",
+        icon: <Smartphone className="w-10 h-10 text-[#FE861B]" />,
       },
       {
-        title: "Cybersecurity",
-        description: "Protection against threats and data breaches",
-        icon: <Shield className="w-10 h-10" />,
+        title: "Internships & Training",
+        description: "Upskill students with hands-on industrial training programs and mentorship from professionals.",
+        icon: <GraduationCap className="w-10 h-10 text-[#177EAE]" />,
       },
       {
-        title: "Database Management",
-        description: "Efficient data storage and retrieval systems",
-        icon: <Database className="w-10 h-10" />,
+        title: "IT Consultation",
+        description: "Strategic advice and technical support to accelerate your digital transformation journey.",
+        icon: <Lightbulb className="w-10 h-10 text-[#D76A10]" />,
       },
     ],
-    how: [
-      {
-        title: "Consultation",
-        description:
-          "In-depth analysis of your business requirements and goals",
-        icon: <Users className="w-10 h-10" />,
-      },
-      {
-        title: "Development",
-        description: "Agile methodology to deliver quality solutions on time",
-        icon: <Code className="w-10 h-10" />,
-      },
-      {
-        title: "Implementation",
-        description: "Seamless deployment with minimal disruption",
-        icon: <Server className="w-10 h-10" />,
-      },
-      {
-        title: "Support",
-        description: "Ongoing maintenance and technical assistance",
-        icon: <Wifi className="w-10 h-10" />,
-      },
-    ],
-    where: [
-      {
-        title: "Global Reach",
-        description: "Serving clients across continents with remote solutions",
-        icon: <Wifi className="w-10 h-10" />,
-      },
-      {
-        title: "Local Presence",
-        description: "Regional offices providing personalized service",
-        icon: <MapPin className="w-10 h-10" />,
-      },
-      {
-        title: "Cloud Services",
-        description: "Accessible anywhere with internet connectivity",
-        icon: <Server className="w-10 h-10" />,
-      },
-      {
-        title: "On-Site Support",
-        description: "Direct assistance at your location when needed",
-        icon: <Users className="w-10 h-10" />,
-      },
-    ],
+    
   };
 
   // Animation classes for tab transitions

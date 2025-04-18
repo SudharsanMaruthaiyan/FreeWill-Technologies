@@ -42,10 +42,11 @@ const OurService = () => {
             Range of Services
           </h1>
           <div>
-            <Button
-              title="See More"
-              classContainer="bg-primary border border-primary px-8 py-3 rounded-lg text-white hover:border-secondary hover:bg-white/90 shadow-2xl transition-all hover:text-secondary hover:border"
-            />
+            <button
+          
+              
+              className="bg-primary border border-primary px-8 py-3 rounded-lg text-white hover:border-secondary hover:bg-white/90 shadow-2xl transition-all hover:text-secondary hover:border"
+            ><a href="/service"> See more</a></button>
           </div>
         </div>
       </div>

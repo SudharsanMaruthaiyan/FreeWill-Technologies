@@ -3,6 +3,8 @@ import {
   Facebook,
   Instagram,
   Linkedin,
+  Mail,
+  Phone,
   Twitter,
   Youtube,
 } from "lucide-react";
@@ -30,7 +32,7 @@ const TopNav = () => {
         <div className=" py-3">
           <div className=" border-r-2 flex items-center gap-2 px-8 flex-nowrap">
             <div>
-              <Clock4 color="#0b2689" className=" stroke-1 w-8 h-8" />
+              <Phone color="#0b2689" className=" stroke-1 w-8 h-8" />
             </div>
             <div>
               <p className="text-sm text-slate-500 text-nowrap">
@@ -44,7 +46,7 @@ const TopNav = () => {
         <div className=" py-3">
           <div className="border-r-2 flex items-center gap-2 px-8 flex-nowrap">
             <div>
-              <Clock4 color="#0b2689" className=" stroke-1 w-8 h-8" />
+              <Mail color="#0b2689" className=" stroke-1 w-8 h-8" />
             </div>
             <div>
               <p className="text-sm text-slate-500">Mail to us</p>

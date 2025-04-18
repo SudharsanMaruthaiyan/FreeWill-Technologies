@@ -4,13 +4,13 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="lg:px-[5%] px-[2%] pt-20 bg-primary-dark">
+    <div className="lg:px-[5%] px-[2%] pt-20 bg-primary-dark text-white font-[Nunito]">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center items-center gap-10 lg:gap-10">
         {/* Logo + Description + Social Icons */}
         <div className="flex flex-col items-start gap-4">
           <div>
             <img
-              src="https://ik.imagekit.io/jjyo3gsee/FreeWellTech/HomePage/WhatsApp%20Image%202025-04-18%20at%2019.47.56_3e650e4c.jpg?"
+              src="https://ik.imagekit.io/HoneyJoe/freewill%20technologies%20assetss/logo-removebg-preview.png?updatedAt=1745004103337"
               alt="logo"
               className="w-[80px] h-[80px]"
             />
