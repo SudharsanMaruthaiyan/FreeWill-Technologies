@@ -1,26 +1,11 @@
 import { Menu, X } from "lucide-react";
 import React, { useState } from "react";
-import { gsap } from "gsap";
 
 const Navbar = () => {
-  //   gsap.fromTo(
-  //     "#move",
-  //     {
-  //       width: 0,
-  //       repeat: -1,
-  //       duration: 10,
-
-  //     },
-  //     {
-  //       width: 100,
-  //       repeat: -1,
-  //       duration: 10
-  //     }
-  //   );
-
+   
   const [toggle, setToggle] = useState(false);
   return (
-    <div className=" grid grid-cols-1 lg:grid-cols-2 items-center py-6">
+    <div className="w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-2 items-center py-6">
       <div className=" flex justify-between items-center">
         <div className="w-[100px] h-[50px] bg-primary rounded-lg">
           <p className=" text-white flex items-center justify-center h-full">
