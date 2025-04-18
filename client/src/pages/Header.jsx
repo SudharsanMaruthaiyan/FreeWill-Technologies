@@ -7,13 +7,13 @@ const Header = () => {
   AOS.init();
 
   return (
-    <div className="h-screen lg:h-[90vh] bg-[url(https://ik.imagekit.io/jjyo3gsee/FreeWellTech/HomePage/pexels-bradleyhook-123335.jpg?updatedAt=1744984537332)] bg-cover bg-center bg-no-repeat xl:px-[5%] px-[2%] relative z-0 overflow-hidden">
+    <div className=" lg:h-[90vh] bg-[url(https://ik.imagekit.io/jjyo3gsee/FreeWellTech/HomePage/pexels-bradleyhook-123335.jpg?updatedAt=1744984537332)] bg-cover bg-center bg-no-repeat xl:px-[5%] px-[2%] relative z-0 overflow-hidden">
       <div className="bg flex items-center justify-start w-full h-full z0">
         <div className="flex flex-col gap-6 z-20 py-32">
-          <h1 className="font-bold text-sm md:text-lg lg:text-xl text-white border-l-4 pl-2 border-secondary font-[Nunito]">
+          <h1 className="font-bold text-lg md:text-lg lg:text-xl text-white border-l-4 pl-2 border-secondary font-[Nunito]">
             Empowering Innovation. Enabling the Future.
           </h1>
-          <h1 className="text-[32px] text-lg lg:text-[42px] font-bold text-white font-[Nunito]">
+          <h1 className="text-[30px] text-lg lg:text-[42px] font-bold text-white font-[Nunito]">
             Welcome to FreeWill Technologies
           </h1>
           <p className="font-medium md:text-lg lg:w-[50%] text-white text-sm font-[Nunito]">
