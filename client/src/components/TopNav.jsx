@@ -1,4 +1,11 @@
-import { Clock4 } from "lucide-react";
+import {
+  Clock4,
+  Facebook,
+  Instagram,
+  Linkedin,
+  Twitter,
+  Youtube,
+} from "lucide-react";
 import React from "react";
 
 const TopNav = () => {
@@ -58,11 +65,11 @@ const TopNav = () => {
             </div>
 
             <div className="flex items-center gap-2 justify-end w-full">
-              <p className="w-10 h-10 rounded-lg bg-green-300 opacity-40">1</p>
-              <p className="w-10 h-10 rounded-lg bg-green-300 opacity-40">1</p>
-              <p className="w-10 h-10 rounded-lg bg-green-300 opacity-40">1</p>
-              <p className="w-10 h-10 rounded-lg bg-green-300 opacity-40">1</p>
-              <p className="w-10 h-10 rounded-lg bg-green-300 opacity-40">1</p>
+              <Linkedin className="w-9 h-9 bg-[#ECF8FF] stroke-[#4064AC] fill-[#4064AC] hover:bg-[#4064AC] hover:fill-white hover:stroke-white transition-all p-[10px] rounded-lg duration-500" />
+              <Facebook className="w-9 h-9 bg-[#ECF8FF] stroke-[#4064AC] fill-[#4064AC] hover:bg-[#4064AC] hover:fill-white hover:stroke-white transition-all p-[10px] rounded-lg duration-500" />
+              <Instagram className="w-9 h-9 bg-[#fff1f3] stroke-[#D1005C] hover:bg-[#D1005C] hover:stroke-white transition-all p-[10px] rounded-lg duration-500" />
+              <Youtube className="w-9 h-9 bg-[#fff1f3] stroke-[#D1005C] hover:bg-[#D1005C] hover:stroke-white transition-all p-[10px] rounded-lg duration-500" />
+              <Twitter className="w-9 h-9 bg-[#ECF8FF] stroke-[#4064AC] fill-[#4064AC] hover:bg-[#4064AC] hover:fill-white hover:stroke-white transition-all p-[10px] rounded-lg duration-500" />
             </div>
           </div>
         </div>
