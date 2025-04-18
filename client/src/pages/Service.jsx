@@ -21,7 +21,7 @@ const Service = () => {
             </div>
             <section className="bg-white py-16 md:px-10 px-5">
               <div className="max-w-6xl mx-auto">
-                <p className="text-2xl md:text-3xl font-semibold mb-6 text-[#0A278B] font-[Nunito]">
+                <p className="text-2xl md:text-3xl font-semibold mb-6 text-secondary font-[Nunito]">
                   We do what we love — and we love empowering through
                   technology.
                 </p>
