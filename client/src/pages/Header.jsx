@@ -7,8 +7,9 @@ const Header = () => {
   AOS.init();
 
   return (
-    <div className=" h-screen lg:h-[90vh] bg-[url(https://ik.imagekit.io/jjyo3gsee/FreeWellTech/HomePage/pexels-bradleyhook-123335.jpg?updatedAt=1744984537332)] bg-cover bg-center bg-no-repeat xl:px-[5%] px-[2%] relative z-0">
-      <div className="bg flex items-center justify-start w-full h-full z-10">
+    <div className=" h-screen lg:h-[90vh] bg-[url(https://ik.imagekit.io/jjyo3gsee/FreeWellTech/HomePage/pexels-bradleyhook-123335.jpg?updatedAt=1744984537332)] bg-cover bg-center bg-no-repeat xl:px-[5%] px-[2%] relative z-0 overflow-hidden">
+
+      <div className="bg flex items-center justify-start w-full h-full z0">
         <div className=" flex flex-col gap-6 z-20 py-32">
           <h1 className="font-bold text-sm md:text-lg lg:text-xl text-white border-l-4 pl-2 border-secondary font-[Nunito]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
