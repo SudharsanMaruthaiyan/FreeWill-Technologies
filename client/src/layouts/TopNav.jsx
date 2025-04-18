@@ -54,8 +54,6 @@ const TopNav = () => {
 
         <div className=" py-3 w-full">
           <div className="flex items-center justify-between gap-5">
-           
-
             <div className="flex items-center gap-2 justify-end w-full">
               <Linkedin className="w-9 h-9 bg-[#ECF8FF] stroke-[#4064AC] fill-[#4064AC] hover:bg-[#4064AC] hover:fill-white hover:stroke-white transition-all p-[10px] rounded-lg duration-500" />
               <Facebook className="w-9 h-9 bg-[#ECF8FF] stroke-[#4064AC] fill-[#4064AC] hover:bg-[#4064AC] hover:fill-white hover:stroke-white transition-all p-[10px] rounded-lg duration-500" />

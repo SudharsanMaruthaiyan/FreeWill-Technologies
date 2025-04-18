@@ -20,11 +20,6 @@ const AboutCompany = () => {
         </div>
       </div>
       <div className=" flex items-center w-full justify-center">
-        <div className="bg-green-300 h-[400px] w-full">
-          <p className=" flex items-center justify-center h-full w-full">
-            image
-          </p>
-        </div>
       </div>
     </div>
   );
