@@ -5,7 +5,7 @@ const AboutCompany = () => {
     <div className="grid grid-cols-1 lg:grid-cols-2 h-[60vh]">
       <div className="flex items-center justify-center w-full h-full px-20">
         <div className="flex flex-col gap-2">
-          <h1>About Company</h1>
+          <h1 className="">About Company</h1>
           <h1>Keeping Our Promise, Achieving Your Goals</h1>
           <p>Over 38+ Happy Customers</p>
 
