@@ -7,6 +7,7 @@ import {
   Youtube,
 } from "lucide-react";
 import React from "react";
+import { FaWhatsapp } from "react-icons/fa";
 
 const TopNav = () => {
   return (
@@ -55,11 +56,27 @@ const TopNav = () => {
         <div className=" py-3 w-full">
           <div className="flex items-center justify-between gap-5">
             <div className="flex items-center gap-2 justify-end w-full">
-              <Linkedin className="w-9 h-9 bg-[#ECF8FF] stroke-[#4064AC] fill-[#4064AC] hover:bg-[#4064AC] hover:fill-white hover:stroke-white transition-all p-[10px] rounded-lg duration-500" />
-              <Facebook className="w-9 h-9 bg-[#ECF8FF] stroke-[#4064AC] fill-[#4064AC] hover:bg-[#4064AC] hover:fill-white hover:stroke-white transition-all p-[10px] rounded-lg duration-500" />
-              <Instagram className="w-9 h-9 bg-[#fff1f3] stroke-[#D1005C] hover:bg-[#D1005C] hover:stroke-white transition-all p-[10px] rounded-lg duration-500" />
-              <Youtube className="w-9 h-9 bg-[#fff1f3] stroke-[#D1005C] hover:bg-[#D1005C] hover:stroke-white transition-all p-[10px] rounded-lg duration-500" />
-              <Twitter className="w-9 h-9 bg-[#ECF8FF] stroke-[#4064AC] fill-[#4064AC] hover:bg-[#4064AC] hover:fill-white hover:stroke-white transition-all p-[10px] rounded-lg duration-500" />
+              <a
+                href="https://www.linkedin.com/in/free-will-technologies-93b05a361"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Linkedin className="w-9 h-9 bg-[#ECF8FF] stroke-[#4064AC] fill-[#4064AC] hover:bg-[#4064AC] hover:fill-white hover:stroke-white transition-all p-[10px] rounded-lg duration-500" />
+              </a>
+              <a
+                href="https://www.instagram.com/freewilltechnologies/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Instagram className="w-9 h-9 bg-[#fff1f3] stroke-[#D1005C] hover:bg-[#D1005C] hover:stroke-white transition-all p-[10px] rounded-lg duration-500" />
+              </a>
+              <a
+                href="https://wa.me/916382503265"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaWhatsapp className="w-9 h-9 bg-[#ECF8FF] stroke-[#4064AC] fill-[#4064AC] hover:bg-[#4064AC] hover:fill-white hover:stroke-white transition-all p-[10px] rounded-lg duration-500" />
+              </a>
             </div>
           </div>
         </div>

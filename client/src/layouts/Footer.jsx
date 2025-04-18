@@ -1,102 +1,121 @@
 import React from "react";
-import {
-  Facebook,
-  Instagram,
-  Linkedin,
-  Twitter,
-  Youtube,
-} from "lucide-react";
+import { Facebook, Instagram, Linkedin, Twitter, Youtube } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="lg:px-[5%] px-[2%] pt-20 bg-[#181A2E]">
-      <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center gap-10 lg:gap-20">
+    <div className="lg:px-[5%] px-[2%] pt-20 bg-primary-dark">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center items-center gap-10 lg:gap-10">
+        {/* Logo + Description + Social Icons */}
         <div className="flex flex-col items-start gap-4">
           <div>
             <img
               src="https://ik.imagekit.io/jjyo3gsee/FreeWellTech/HomePage/WhatsApp%20Image%202025-04-18%20at%2019.47.56_3e650e4c.jpg?"
               alt="logo"
-              className=" w-[80px] h-[80px]"
+              className="w-[80px] h-[80px]"
             />
           </div>
-          <p className=" text-white font-[Nunito] text-lg">
+          <p className="text-text-light font-[Nunito] text-lg">
             Honest, Transparent and Results-Driven Company with Experts in
-            Latest Tech, Help Businesses Grow.
+            Latest Tech, Helping Businesses Grow.
           </p>
           <div className="flex items-center justify-between gap-5">
             <div className="flex items-center gap-2 justify-end w-full">
-              <Linkedin className="w-9 h-9 bg-[#ECF8FF] stroke-[#4064AC] fill-[#4064AC] hover:bg-[#4064AC] hover:fill-white hover:stroke-white transition-all p-[10px] rounded-lg duration-500" />
-              <Facebook className="w-9 h-9 bg-[#ECF8FF] stroke-[#4064AC] fill-[#4064AC] hover:bg-[#4064AC] hover:fill-white hover:stroke-white transition-all p-[10px] rounded-lg duration-500" />
-              <Instagram className="w-9 h-9 bg-[#fff1f3] stroke-[#D1005C] hover:bg-[#D1005C] hover:stroke-white transition-all p-[10px] rounded-lg duration-500" />
-              <Youtube className="w-9 h-9 bg-[#fff1f3] stroke-[#D1005C] hover:bg-[#D1005C] hover:stroke-white transition-all p-[10px] rounded-lg duration-500" />
-              <Twitter className="w-9 h-9 bg-[#ECF8FF] stroke-[#4064AC] fill-[#4064AC] hover:bg-[#4064AC] hover:fill-white hover:stroke-white transition-all p-[10px] rounded-lg duration-500" />
+              <a
+                href="https://www.linkedin.com/in/free-will-technologies-93b05a361"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Linkedin className="w-9 h-9 bg-[#1E9CD7] stroke-white hover:bg-[#177EAE] transition-all duration-300 ease-in-out p-[10px] rounded-lg" />
+              </a>
+
+              <a
+                href="https://www.instagram.com/freewilltechnologies/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Instagram className="w-9 h-9 bg-[#FE861B] stroke-white hover:bg-[#D76A10] transition-all duration-300 ease-in-out p-[10px] rounded-lg" />
+              </a>
+              <a
+                href="https://wa.me/916382503265"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaWhatsapp className="w-9 h-9 bg-[#ECF8FF] stroke-[#4064AC] fill-[#4064AC] hover:bg-[#4064AC] hover:fill-white hover:stroke-white transition-all p-[10px] rounded-lg duration-500" />
+              </a>
             </div>
           </div>
         </div>
 
+        {/* Services */}
         <div>
-          <ul className=" flex flex-col gap-4 items-start">
-            <h1 className=" font-[Nunito] text-white text-xl font-bold pl-2 border-l-2 border-secondary">
-              Our Service
+          <ul className="flex flex-col gap-4 items-start">
+            <h1 className="font-[Nunito] text-text-light text-xl font-bold pl-2 border-l-4 border-[#FE861B]">
+              Our Services
             </h1>
-            <li className="font-[Nunito] text-white">
-              <a href="">Web Development</a>
+            <li className="font-[Nunito] text-text-light hover:underline transition-all duration-300 ease-in-out">
+              <a href="#">Web App Development</a>
             </li>
-            <li className="font-[Nunito] text-white">
-              <a href="">Mobile Development</a>
+            <li className="font-[Nunito] text-text-light hover:underline transition-all duration-300 ease-in-out">
+              <a href="#">Mobile App Development</a>
             </li>
-            <li className="font-[Nunito] text-white">
-              <a href="">E-Commerce Solution</a>
+            <li className="font-[Nunito] text-text-light hover:underline transition-all duration-300 ease-in-out">
+              <a href="#">UI/UX & Graphic Design</a>
             </li>
-            <li className="font-[Nunito] text-white">
-              <a href="">CMS, CRM, & ERP</a>
+            <li className="font-[Nunito] text-text-light hover:underline transition-all duration-300 ease-in-out">
+              <a href="#">Trainings & Internships</a>
             </li>
           </ul>
         </div>
 
-        <div className=" w-full lg:justify-center flex ">
-          <ul className=" flex flex-col gap-4 lg:items-start">
-            <h1 className=" font-[Nunito] text-white text-xl font-bold pl-2 border-l-2 border-secondary">
-              Our Service
+        {/* Useful Links */}
+        <div className="w-full  flex">
+          <ul className="flex flex-col gap-4 lg:items-start">
+            <h1 className="font-[Nunito] text-text-light text-xl font-bold pl-2 border-l-4 border-[#FE861B]">
+              Useful Links
             </h1>
-            <li className="font-[Nunito] text-white">
-              <a href="">Custom Software</a>
+            <li className="font-[Nunito] text-text-light hover:underline transition-all duration-300 ease-in-out">
+              <a href="#">Privacy Policy</a>
             </li>
-            <li className="font-[Nunito] text-white">
-              <a href="">Graphics Designing</a>
+            <li className="font-[Nunito] text-text-light hover:underline transition-all duration-300 ease-in-out">
+              <a href="#">Terms & Conditions</a>
             </li>
-            <li className="font-[Nunito] text-white">
-              <a href="">Digital Marketing & SEO</a>
-            </li>
-            <li className="font-[Nunito] text-white">
-              <a href="">Social Media Handling</a>
+            <li className="font-[Nunito] text-text-light hover:underline transition-all duration-300 ease-in-out">
+              <a href="#">Contact Us</a>
             </li>
           </ul>
         </div>
 
-        <div className=" flex lg:justify-end">
-          <ul className=" flex flex-col gap-4 lg:items-start">
-            <h1 className=" font-[Nunito] text-white text-xl font-bold pl-2 border-l-2 border-secondary">
-              OUR Links
+        {/* Company Info */}
+        <div className="flex">
+          <ul className="flex flex-col gap-4 lg:items-start">
+            <h1 className="font-[Nunito] text-text-light text-xl font-bold pl-2 border-l-4 border-[#FE861B]">
+              Company
             </h1>
-            <li className="font-[Nunito] text-white">
-              <a href="">Privacy Policy</a>
+            <li className="font-[Nunito] text-text-light hover:underline transition-all duration-300 ease-in-out">
+              <a href="#">About Us</a>
             </li>
-            <li className="font-[Nunito] text-white">
-              <a href="">Terms and Conditions</a>
+            <li className="font-[Nunito] text-text-light hover:underline transition-all duration-300 ease-in-out">
+              <a href="#">Careers</a>
             </li>
-            <li className="font-[Nunito] text-white">
-              <a href="">Contact Us</a>
+            <li className="font-[Nunito] text-text-light hover:underline transition-all duration-300 ease-in-out">
+              <a href="#">Blog</a>
             </li>
           </ul>
         </div>
       </div>
 
-      <hr className=" mt-8" />
-      <h1 className=" text-center font-[Nunito] py-6 text-white">
-        © 2023 <span className=" hover:text-primary">Freewell Technology</span>.
-        All Rights Reserved by{" "}
-        <span className=" hover:text-secondary">Freewell Technology</span>
+      {/* Footer Bottom */}
+      <hr className="mt-8 border-[#E1F3FA]" />
+      <h1 className="text-center font-[Nunito] py-6 text-text-light">
+        © 2025{" "}
+        <span className="hover:underline hover:text-[#1E9CD7]">
+          FreeWill Technologies
+        </span>
+        . All Rights Reserved by{" "}
+        <span className="hover:underline hover:text-[#FE861B]">
+          FreeWill Technologies
+        </span>
       </h1>
     </div>
   );
