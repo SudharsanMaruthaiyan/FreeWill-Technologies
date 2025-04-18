@@ -20,15 +20,6 @@ const Navbar = () => {
 
   const [toggle, setToggle] = useState(false);
   return (
-<<<<<<< HEAD:client/src/layouts/Navbar.jsx
-    <div className="flex items-center justify-between py-6  w-[100%] px-[2%] xl:w-full xl:px-[5%] mx-auto sticky top-0 bg-white">
-      <div className="w-[100px] h-[50px] bg-primary rounded-lg">
-        <p className=" text-white flex items-center justify-center h-full">logo</p>
-      </div>
-      <div>
-        <ul className=" flex items-center gap-5">
-          <li className=" font-medium">
-=======
     <div className=" grid grid-cols-1 lg:grid-cols-2 items-center py-6">
       <div className=" flex justify-between items-center">
         <div className="w-[100px] h-[50px] bg-primary rounded-lg">
@@ -58,7 +49,6 @@ const Navbar = () => {
       >
         <ul className="flex flex-col items-center lg:flex-row lg:justify-end gap-6">
           <li className="font-medium hover:border-b-2 hover:border-b-blue-800 border-2 border-white transition-all duration-500 ease-in-out">
->>>>>>> 6824ca655fd1b8609cae5a019e8fad23dbdce48a:client/src/components/Navbar.jsx
             <a href="/">Home</a>
           </li>
           <li className="font-medium hover:border-b-2 hover:border-b-blue-800 border-2 border-white transition-all duration-500 ease-in-out">
