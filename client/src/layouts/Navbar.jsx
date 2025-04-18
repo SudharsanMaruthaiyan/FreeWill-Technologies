@@ -60,10 +60,7 @@ const Navbar = () => {
           <li className="font-medium hover:border-b-2 hover:border-b-blue-800 border-2 border-white transition-all duration-500 ease-in-out">
             <a href="/contact">Contact</a>
           </li>
-          <li className=" relative">
-            <a href="">hello</a>
-            <div id="move" className=" absolute h-1 bg-red-800"></div>
-          </li>
+          
         </ul>
       </div>
     </div>
