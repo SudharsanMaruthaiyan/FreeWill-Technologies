@@ -1,4 +1,15 @@
+<<<<<<< HEAD:client/src/layouts/TopNav.jsx
 import { Clock4, Instagram, Linkedin, PhoneCall } from "lucide-react";
+=======
+import {
+  Clock4,
+  Facebook,
+  Instagram,
+  Linkedin,
+  Twitter,
+  Youtube,
+} from "lucide-react";
+>>>>>>> 6824ca655fd1b8609cae5a019e8fad23dbdce48a:client/src/components/TopNav.jsx
 import React from "react";
 
 const TopNav = () => {
@@ -50,11 +61,19 @@ const TopNav = () => {
            
 
             <div className="flex items-center gap-2 justify-end w-full">
+<<<<<<< HEAD:client/src/layouts/TopNav.jsx
               <p className="w-10 h-10 rounded-lg bg-green-300 opacity-40 flex justify-center items-center"><Instagram></Instagram></p>
               <p className="w-10 h-10 rounded-lg bg-green-300 opacity-40 flex justify-center items-center"><Linkedin></Linkedin></p>
               <p className="w-10 h-10 rounded-lg bg-green-300 opacity-40 flex justify-center items-center"><PhoneCall /></p>
               <p className="w-10 h-10 rounded-lg bg-green-300 opacity-40 flex justify-center items-center"></p>
               
+=======
+              <Linkedin className="w-9 h-9 bg-[#ECF8FF] stroke-[#4064AC] fill-[#4064AC] hover:bg-[#4064AC] hover:fill-white hover:stroke-white transition-all p-[10px] rounded-lg duration-500" />
+              <Facebook className="w-9 h-9 bg-[#ECF8FF] stroke-[#4064AC] fill-[#4064AC] hover:bg-[#4064AC] hover:fill-white hover:stroke-white transition-all p-[10px] rounded-lg duration-500" />
+              <Instagram className="w-9 h-9 bg-[#fff1f3] stroke-[#D1005C] hover:bg-[#D1005C] hover:stroke-white transition-all p-[10px] rounded-lg duration-500" />
+              <Youtube className="w-9 h-9 bg-[#fff1f3] stroke-[#D1005C] hover:bg-[#D1005C] hover:stroke-white transition-all p-[10px] rounded-lg duration-500" />
+              <Twitter className="w-9 h-9 bg-[#ECF8FF] stroke-[#4064AC] fill-[#4064AC] hover:bg-[#4064AC] hover:fill-white hover:stroke-white transition-all p-[10px] rounded-lg duration-500" />
+>>>>>>> 6824ca655fd1b8609cae5a019e8fad23dbdce48a:client/src/components/TopNav.jsx
             </div>
           </div>
         </div>
