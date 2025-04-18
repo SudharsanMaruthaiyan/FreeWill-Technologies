@@ -13,8 +13,8 @@ const Header = () => {
           <h1 className="font-bold text-xl md:text-lg lg:text-xl text-white border-l-4 pl-2 border-secondary font-[Nunito]">
             Empowering Innovation. Enabling the Future.
           </h1>
-          <h1 className="text-[34px] text-lg lg:text-[42px] font-bold text-white font-[Nunito]">
-            Welcome to FreeWill Technologies
+          <h1 className="text-[36px] leading-snug text-lg lg:text-[42px] font-bold text-white font-[Nunito]">
+            Welcome to <br /> FreeWill Technologies
           </h1>
           <p className="font-medium md:text-lg lg:w-[50%] text-white text-sm font-[Nunito]">
             At FreeWill Technologies, we specialize in building powerful web and app solutions, 
