@@ -5,7 +5,7 @@ import { FaWhatsapp } from "react-icons/fa";
 const ContactWhatsApp = () => {
   return (
     <section
-      className="w-full h-[60vh] bg-cover bg-center flex items-center justify-center relative font-nunito my-[100px]"
+      className="w-full h-[60vh] bg-cover bg-center flex items-center justify-center relative font-nunito mt-[100px]"
       style={{
         backgroundImage:
           "url('https://ik.imagekit.io/HoneyJoe/freewill%20technologies%20assetss/world-global-cartography-globalization-earth-international-concept.jpg?updatedAt=1744989313390')",
