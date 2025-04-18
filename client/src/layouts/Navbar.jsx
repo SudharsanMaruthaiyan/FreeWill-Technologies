@@ -60,7 +60,6 @@ const Navbar = () => {
           <li className="font-medium hover:border-b-2 hover:border-b-blue-800 border-2 border-white transition-all duration-500 ease-in-out">
             <a href="/contact">Contact</a>
           </li>
-          
         </ul>
       </div>
     </div>
