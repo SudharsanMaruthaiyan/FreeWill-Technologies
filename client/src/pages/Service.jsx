@@ -21,11 +21,11 @@ const Service = () => {
             </div>
             <section className="bg-white py-16 md:px-10 px-5">
               <div className="max-w-6xl mx-auto">
-                <p className="text-2xl md:text-3xl font-semibold mb-6 text-[#0A278B]">
+                <p className="text-2xl md:text-3xl font-semibold mb-6 text-[#0A278B] font-[Nunito]">
                   We do what we love — and we love empowering through
                   technology.
                 </p>
-                <p className="text-base md:text-lg mb-6 leading-relaxed">
+                <p className="text-base md:text-lg mb-6 leading-relaxed font-[Nunito]">
                   At{" "}
                   <span className="font-semibold">FreeWill Technologies</span>,
                   we are driven by passion and purpose. We specialize in
@@ -33,7 +33,7 @@ const Service = () => {
                   institutions, and individuals thrive in an ever-evolving tech
                   world.
                 </p>
-                <p className="text-base md:text-lg mb-6 leading-relaxed">
+                <p className="text-base md:text-lg mb-6 leading-relaxed font-[Nunito]">
                   From <span className="font-medium">web development</span> and{" "}
                   <span className="font-medium">UI/UX design</span> to{" "}
                   <span className="font-medium">technical training</span> and{" "}
