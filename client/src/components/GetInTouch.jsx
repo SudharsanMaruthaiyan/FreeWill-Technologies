@@ -35,7 +35,7 @@ const GetInTouch = () => {
               <Mail className="mr-4" size={24} />
               <div>
                 <h3 className="text-xl font-bold font-[Nunito]">Email Us</h3>
-                <p className="font-[Nunito]">freewilltech2025@gmail.com</p>
+                <p className="font-[Nunito]">hr@freewilltech.in</p>
               </div>
             </div>
           </div>
@@ -45,7 +45,7 @@ const GetInTouch = () => {
               <Phone className="mr-4" size={24} />
               <div>
                 <h3 className="text-xl font-bold font-[Nunito]">Call Us</h3>
-                <p className="font-[Nunito]">+91 63825 03265</p>
+                <p className="font-[Nunito]">+91 96268 06328</p>
               </div>
             </div>
           </div>

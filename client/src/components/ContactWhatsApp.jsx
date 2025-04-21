@@ -23,7 +23,7 @@ const ContactWhatsApp = () => {
           Got questions or want to collaborate? Reach out to us directly on WhatsApp and let's innovate together.
         </p>
         <a
-          href="https://wa.me/916382503265" // replace with your real number
+          href="https://wa.me/919626806328" // replace with your real number
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center bg-secondary hover:bg-secondary-dark text-white font-semibold py-3 px-6 rounded-xl shadow-lg transition"

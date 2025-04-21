@@ -14,22 +14,23 @@ const Faq = () => {
 
     const accordionData = [
         {
-            title: "What is the role of FreeWill Technologies?",
-            desc: "At FreeWill Technologies, our role is to empower businesses and individuals by providing innovative technology services, specialized training, and internship programs. We aim to bridge the gap between education and industry, helping you thrive in the digital age."
+          title: "What services does FreeWill Technologies offer?",
+          desc: "We provide Web Design, Web & Mobile App Development, Graphic Design, CMS-based Development, and Business Portfolio Sites. Our solutions are tailored to meet each client’s specific goals using modern tools and industry best practices."
         },
         {
-            title: "How can I get involved with FreeWill Technologies?",
-            desc: "You can get involved by enrolling in our training programs, applying for internships, or collaborating with us on technology services. We work closely with educational institutions and businesses to provide hands-on experience and industry-ready solutions."
+          title: "Do you develop custom business portfolio websites?",
+          desc: "Yes, we specialize in crafting professional and visually compelling portfolio websites that help individuals and businesses showcase their work and brand identity effectively online."
         },
         {
-            title: "What types of services does FreeWill Technologies offer?",
-            desc: "We specialize in technology services such as web and mobile app development, UI/UX design, and more. Additionally, we provide tailored internship and training programs designed to equip emerging tech talent with the skills needed to excel in today’s digital landscape."
+          title: "Can FreeWill Technologies revamp my existing website?",
+          desc: "Absolutely! Whether you want a design refresh, performance optimization, or a full rebuild with modern tech stacks, we can revamp your existing website to match today’s trends and user expectations."
         },
         {
-            title: "How does FreeWill Technologies help with skill-building?",
-            desc: "Through our training and internship programs, we offer hands-on experience and mentorship, helping young minds develop real-world skills in technology. Our mission is to create a pipeline of industry-ready professionals by fostering a deeper understanding of tech trends and challenges."
-        },
-    ];
+          title: "What technologies do you use for web and app development?",
+          desc: "We use cutting-edge technologies such as React, Node.js, Express, MongoDB, MySQL, and Flutter for building fast, responsive, and scalable web and mobile applications tailored to your business needs."
+        }
+      ];
+      
 
     return (
         <div className="2xl:container mx-auto bg-bg-light pb-20 py-14">

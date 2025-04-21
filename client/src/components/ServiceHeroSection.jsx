@@ -36,37 +36,44 @@ const ServiceHeroSection = () => {
               <span className="font-semibold text-primary">
                 FreeWill Technologies
               </span>
-              , we are driven by passion and purpose. We specialize in
-              delivering powerful digital solutions that help businesses,
-              institutions, and individuals thrive in an ever-evolving tech
-              world.
+              , we are passionate about building digital experiences that
+              inspire, engage, and deliver results. Our mission is to support
+              businesses and individuals through innovative technology services.
             </p>
 
             <p className="text-base md:text-lg mb-6 leading-relaxed">
               From{" "}
               <span className="font-medium text-primary-dark">
-                web development
+                custom web design
               </span>{" "}
               and{" "}
               <span className="font-medium text-primary-dark">
-                UI/UX design
+                full-stack web development
               </span>{" "}
               to{" "}
               <span className="font-medium text-primary-dark">
-                technical training
-              </span>{" "}
-              and{" "}
-              <span className="font-medium text-primary-dark">
-                internship programs
+                CMS-based platforms
               </span>
-              , our services are designed not only to solve problems but to
-              unlock possibilities.
+              ,{" "}
+              <span className="font-medium text-primary-dark">
+                business portfolio websites
+              </span>
+              , and{" "}
+              <span className="font-medium text-primary-dark">
+                mobile app development
+              </span>
+              , we create tailored digital solutions that elevate your brand and
+              streamline your digital presence.
             </p>
 
             <p className="text-base md:text-lg leading-relaxed mb-8">
-              Our team stays ahead of the curve with the latest technologies and
-              trends to craft solutions that are modern, scalable, and
-              future-ready.
+              Our creative team also specializes in{" "}
+              <span className="font-medium text-primary-dark">
+                graphic design
+              </span>{" "}
+              to ensure your brand looks as strong as it performs. Every
+              solution we deliver is crafted with modern tools, strategic
+              thinking, and a commitment to excellence.
             </p>
 
             <a

@@ -25,7 +25,7 @@ const Header = () => {
           </h1>
           <p className="font-medium md:text-lg lg:w-[50%] text-white text-sm font-[Nunito]">
             At FreeWill Technologies, we specialize in building powerful web and app solutions, 
-            offering industry-relevant training, and delivering IT consultation to bridge the gap 
+            and delivering IT consultation to bridge the gap 
             between education and the tech world. Let’s build the future together.
           </p>
           <div className="mt-5">

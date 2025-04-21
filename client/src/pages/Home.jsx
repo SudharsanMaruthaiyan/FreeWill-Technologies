@@ -5,6 +5,7 @@ import Layout from "../layouts/Layout";
 import OurService from "./OurService";
 import GetInTouch from "../components/GetInTouch";
 import Offer from "../components/Offer";
+import ServiceProvided from "../components/ServiceProvided";
 
 const Home = () => {
   return (
@@ -13,7 +14,7 @@ const Home = () => {
         <div className="w-[100%] ">
           <Header />
           <AboutCompany />
-          <OurService />
+          <ServiceProvided />
           <Offer />
           <GetInTouch />
         </div>

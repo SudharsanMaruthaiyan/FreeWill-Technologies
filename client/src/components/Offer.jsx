@@ -2,19 +2,14 @@ import React, { useState } from "react";
 import {
   Users,
   Package,
-  Search,
-  MapPin,
-  Award,
-  BarChart2,
-  Wifi,
   Shield,
   Code,
-  Database,
-  Server,
   Clock,
-  Lightbulb,
-  GraduationCap,
+  LayoutDashboard,
+  Palette,
   Smartphone,
+  Layers,
+  Globe,
 } from "lucide-react";
 
 const Offer = () => {
@@ -51,28 +46,44 @@ const Offer = () => {
         icon: <Clock className="w-10 h-10" />,
       },
     ],
-    what: [
+    what:[
+      {
+        title: "Web Design",
+        description:
+          "Modern and user-focused web designs that create strong first impressions and enhance usability.",
+        icon: <LayoutDashboard className="w-10 h-10 text-[#1E9CD7]" />,
+      },
       {
         title: "Web Development",
-        description: "Responsive and dynamic websites built with modern technologies tailored to your business needs.",
-        icon: <Code className="w-10 h-10 text-[#1E9CD7]" />,
+        description:
+          "Responsive and dynamic websites built with modern technologies tailored to your business needs.",
+        icon: <Code className="w-10 h-10 text-[#FE861B]" />,
+      },
+      {
+        title: "Graphic Design",
+        description:
+          "Creative visual solutions including logos, branding, and digital assets that leave a lasting impact.",
+        icon: <Palette className="w-10 h-10 text-[#177EAE]" />,
       },
       {
         title: "App Development",
-        description: "Cross-platform mobile applications with seamless UI/UX and robust performance.",
-        icon: <Smartphone className="w-10 h-10 text-[#FE861B]" />,
+        description:
+          "Cross-platform mobile applications with seamless UI/UX and robust performance.",
+        icon: <Smartphone className="w-10 h-10 text-[#D76A10]" />,
       },
       {
-        title: "Internships & Training",
-        description: "Upskill students with hands-on industrial training programs and mentorship from professionals.",
-        icon: <GraduationCap className="w-10 h-10 text-[#177EAE]" />,
+        title: "CMS-Based Development",
+        description:
+          "Flexible, easy-to-manage websites powered by content management systems like WordPress and Strapi.",
+        icon: <Layers className="w-10 h-10 text-[#5EC3F0]" />,
       },
       {
-        title: "IT Consultation",
-        description: "Strategic advice and technical support to accelerate your digital transformation journey.",
-        icon: <Lightbulb className="w-10 h-10 text-[#D76A10]" />,
+        title: "Business Portfolio Sites",
+        description:
+          "Professional and elegant portfolio sites designed to present your business with clarity and confidence.",
+        icon: <Globe className="w-10 h-10 text-[#FFAC5A]" />,
       },
-    ],
+    ]
     
   };
 
