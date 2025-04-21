@@ -1,6 +1,7 @@
 import React from "react";
 import { Facebook, Instagram, Linkedin, Twitter, Youtube } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
+import { logo } from "../assets/image";
 
 const Footer = () => {
   return (
@@ -10,7 +11,7 @@ const Footer = () => {
         <div className="flex flex-col items-start gap-4">
           <div>
             <img
-              src="https://ik.imagekit.io/HoneyJoe/freewill%20technologies%20assetss/logo-removebg-preview.png?updatedAt=1745004103337"
+              src={logo}
               alt="logo"
               className="w-[80px] h-[80px]"
             />

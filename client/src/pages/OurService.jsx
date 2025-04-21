@@ -1,33 +1,52 @@
 import React from "react";
 import Button from "../components/Button";
-import { Code, PenTool, GraduationCap, Briefcase } from "lucide-react";
+import {
+  Code,
+  Palette,
+  MonitorSmartphone,
+  Layers,
+  LayoutDashboard,
+  Globe,
+} from "lucide-react";
 import { motion } from "framer-motion"
 
 const OurService = () => {
   const services = [
     {
+      icon: <LayoutDashboard size={32} className="text-secondary" />,
+      title: "Web Design",
+      description:
+        "Crafting visually stunning and user-centric website designs tailored to your brand identity.",
+    },
+    {
       icon: <Code size={32} className="text-secondary" />,
       title: "Web Development",
       description:
-        "Custom web solutions crafted to boost your digital presence with modern and scalable technologies.",
+        "Responsive and dynamic websites built with modern technologies for seamless performance.",
     },
     {
-      icon: <PenTool size={32} className="text-secondary" />,
-      title: "UI/UX Design",
+      icon: <Palette size={32} className="text-secondary" />,
+      title: "Graphic Design",
       description:
-        "Intuitive and engaging user experiences designed for impact and ease of use.",
+        "Creative graphics, logos, and branding materials to elevate your visual presence.",
     },
     {
-      icon: <GraduationCap size={32} className="text-secondary" />,
-      title: "Trainings",
+      icon: <MonitorSmartphone size={32} className="text-secondary" />,
+      title: "App Development",
       description:
-        "Industry-relevant tech training programs for individuals and institutions.",
+        "Robust mobile applications for Android and iOS, tailored to your business needs.",
     },
     {
-      icon: <Briefcase size={32} className="text-secondary" />,
-      title: "Internships",
+      icon: <Layers size={32} className="text-secondary" />,
+      title: "CMS-Based Development",
       description:
-        "Hands-on internships that bridge the gap between academics and the tech industry.",
+        "Flexible and scalable content management systems for easy site control and updates.",
+    },
+    {
+      icon: <Globe size={32} className="text-secondary" />,
+      title: "Business Portfolio Sites",
+      description:
+        "Professional websites to showcase your business and services, enhancing credibility and reach.",
     },
   ];
   return (
@@ -50,7 +69,7 @@ const OurService = () => {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 justify-center items-center">
         {services.map((service, index) => (
           <motion.div
             key={index}

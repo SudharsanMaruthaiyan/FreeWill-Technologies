@@ -38,7 +38,7 @@ const TopNav = () => {
               <p className="text-sm text-slate-500 text-nowrap">
                 Call for help:
               </p>
-              <p className="font-medium text-nowrap">+91 8098 5656 86</p>
+              <p className="font-medium text-nowrap">+91 96268 06328</p>
             </div>
           </div>
         </div>
@@ -50,7 +50,7 @@ const TopNav = () => {
             </div>
             <div>
               <p className="text-sm text-slate-500">Mail to us</p>
-              <p className="font-medium">freewilltech2025@gmail.com</p>
+              <p className="font-medium">hr@freewilltech.in</p>
             </div>
           </div>
         </div>
@@ -73,7 +73,7 @@ const TopNav = () => {
                 <Instagram className="w-9 h-9 bg-[#fff1f3] stroke-[#D1005C] hover:bg-[#D1005C] hover:stroke-white transition-all p-[10px] rounded-lg duration-500" />
               </a>
               <a
-                href="https://wa.me/916382503265"
+                href="https://wa.me/919626806328"
                 target="_blank"
                 rel="noopener noreferrer"
               >

@@ -15,13 +15,8 @@ const AboutCompany = () => {
           <hr />
 
           <p className=" font-[Nunito] text-slate-600 ">
-            At FREE WILL TECHNOLOGIES, we are committed to delivering impactful
-            digital solutions while nurturing emerging tech talent. Founded with
-            a vision to bridge the gap between education and industry, we
-            specialize in providing technology services, training, and
-            internship programs that shape the future workforce. We believe in
-            the power of “free will” — the freedom to explore, learn, and
-            innovate with technology.
+          FREE WILL TECHNOLOGIES is a tech-driven company dedicated to delivering smart and reliable digital solutions. We specialize in web development, software services, automation, and design. Our mission is to help businesses and individuals grow through technology.
+          We believe in the power of "free will" — the freedom to think, build, and innovate without limits
           </p>
         </div>
       </div>
@@ -29,7 +24,7 @@ const AboutCompany = () => {
       <div className=" flex items-center w-full justify-center relative">
         <img
           className=" rounded-lg h-[500px]"
-          src="https://www.zworktechnology.com/assets/frontend/image/aboutus/about_company.png"
+          src="https://ik.imagekit.io/HoneyJoe/freewill%20technologies%20assetss/20943566.jpg?updatedAt=1745257878419"
           alt=""
         />
       </div>

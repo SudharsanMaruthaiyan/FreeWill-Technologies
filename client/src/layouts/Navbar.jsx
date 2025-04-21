@@ -1,13 +1,14 @@
 import { Menu, X } from "lucide-react";
 import React, { useState } from "react";
+import { logo } from "../assets/image";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
-    <div className="w-full px-[2%] lg:px-[5%] mx-auto grid grid-cols-1 lg:grid-cols-2 items-center py-3 sticky top-0 bg-white z-50">
+    <div className="w-full px-[2%] lg:px-[5%] mx-auto grid grid-cols-1 lg:grid-cols-2 items-center py-3 sticky top-0 bg-bg-light z-50">
       <div className=" flex justify-between items-center">
         <div className="">
-          <img className="w-[60px] h-[60px]" src="https://ik.imagekit.io/jjyo3gsee/FreeWellTech/HomePage/WhatsApp%20Image%202025-04-18%20at%2019.47.56_3e650e4c.jpg?" alt="logo" />
+          <img className="w-[60px] h-[60px]" src={logo} alt="logo" />
         </div>
         <div className=" block lg:hidden">
           <Menu
@@ -30,16 +31,16 @@ const Navbar = () => {
   } `}
       >
         <ul className="flex flex-col items-center lg:flex-row lg:justify-end gap-6">
-          <li className="font-medium font-[Nunito] hover:border-b-2 hover:border-b-blue-800 border-2 border-white transition-all duration-500 ease-in-out">
+          <li className="font-medium font-[Nunito] hover:border-b-2 hover:border-b-blue-800   transition-all duration-500 ease-in-out">
             <a href="/">Home</a>
           </li>
-          <li className="font-medium font-[Nunito] hover:border-b-2 hover:border-b-blue-800 border-2 border-white transition-all duration-500 ease-in-out">
+          <li className="font-medium font-[Nunito] hover:border-b-2 hover:border-b-blue-800   transition-all duration-500 ease-in-out">
             <a href="/about">About Us</a>
           </li>
-          <li className="font-medium font-[Nunito] hover:border-b-2 hover:border-b-blue-800 border-2 border-white transition-all duration-500 ease-in-out">
+          <li className="font-medium font-[Nunito] hover:border-b-2 hover:border-b-blue-800   transition-all duration-500 ease-in-out">
             <a href="/service">Services</a>
           </li>
-          <li className="font-medium font-[Nunito] hover:border-b-2 hover:border-b-blue-800 border-2 border-white transition-all duration-500 ease-in-out">
+          <li className="font-medium font-[Nunito] hover:border-b-2 hover:border-b-blue-800   transition-all duration-500 ease-in-out">
             <a href="/contact">Contact</a>
           </li>
         </ul>

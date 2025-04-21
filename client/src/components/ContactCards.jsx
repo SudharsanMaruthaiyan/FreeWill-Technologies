@@ -5,8 +5,8 @@ const ContactCards = () => {
     {
       title: "Phone",
       icon: <FaPhoneAlt size={30} />,
-      description: "+91 63825 03265",
-      href: "tel:+916382503265",
+      description: "+91 9626806328",
+      href: "tel:+919626806328",
       bgImage:
         "https://ik.imagekit.io/HoneyJoe/freewill%20technologies%20assetss/5118756.jpg?updatedAt=1744995811309", // Replace with your own
     },
