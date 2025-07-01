@@ -15,7 +15,7 @@ const Header = () => {
       {/* BLACK OVERLAY */}
       <div className="absolute inset-0 bg-black opacity-60 z-10"></div>
 
-      <div className="relative z-20 flex items-center justify-start w-full h-full">
+      <div className="relative z-20 flex items-center justify-start w-[80%] h-full">
         <div className="flex flex-col gap-6 py-20 lg:py-32">
           <h1 className="font-bold text-xl md:text-lg lg:text-xl text-secondary border-l-4 pl-2 border-secondary font-[Nunito]">
             Empowering Innovation. Enabling the Future.

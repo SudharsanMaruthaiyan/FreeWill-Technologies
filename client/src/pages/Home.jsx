@@ -9,7 +9,7 @@ import ServiceProvided from "../components/ServiceProvided";
 
 const Home = () => {
   return (
-    <div className="2xl:container mx-auto">
+    <div className="max-w-[100%]">
       <Layout>
         <div className="w-[100%] ">
           <Header />
