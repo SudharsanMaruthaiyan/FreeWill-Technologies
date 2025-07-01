@@ -59,7 +59,7 @@ const TopNav = () => {
           <div className="flex items-center justify-between gap-5">
             <div className="flex items-center gap-2 justify-end w-full">
               <a
-                href="https://www.linkedin.com/in/free-will-technologies-93b05a361"
+                href="https://www.linkedin.com/company/free-will-technologies/"
                 target="_blank"
                 rel="noopener noreferrer"
               >

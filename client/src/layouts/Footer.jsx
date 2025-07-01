@@ -16,7 +16,7 @@ const Footer = () => {
           </p>
           <div className="flex items-center gap-3">
             <a
-              href="https://www.linkedin.com/in/free-will-technologies-93b05a361"
+              href="https://www.linkedin.com/company/free-will-technologies/"
               target="_blank"
               rel="noopener noreferrer"
             >

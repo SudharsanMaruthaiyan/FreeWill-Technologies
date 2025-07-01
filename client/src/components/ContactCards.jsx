@@ -14,7 +14,7 @@ const ContactCards = () => {
       title: "LinkedIn",
       icon: <FaLinkedinIn size={30} />,
       description: "linkedin.com/in/freewill",
-      href: "https://www.linkedin.com/in/free-will-technologies-93b05a361",
+      href: "https://www.linkedin.com/company/free-will-technologies/",
       bgImage:
         "https://ik.imagekit.io/HoneyJoe/freewill%20technologies%20assetss/10464412.png?updatedAt=1744995811295", // Replace with your own
     },
