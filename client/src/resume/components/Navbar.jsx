@@ -1,10 +1,17 @@
 import { Menu, X } from "lucide-react";
 import React, { useState } from "react";
-import { logo } from "../assets/image";
+import { logo } from "../../assets/image";
 import { Link } from "react-router-dom";
+import { motion, AnimatePresence } from "framer-motion";
+
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
+    const handleStartBuilding = () => {
+      setShowBuilder(true);
+      window.scrollTo(0, 0);
+    };
+    const [showBuilder, setShowBuilder] = useState(false);
   return (
     <div className="w-full px-[2%] lg:px-[5%] mx-auto grid grid-cols-1 lg:grid-cols-2 items-center py-3 sticky top-0 bg-bg-light z-50">
       <div className=" flex justify-between items-center">
@@ -12,6 +19,7 @@ const Navbar = () => {
         <div className="">
           <img className="w-[60px] h-[60px]" src={logo} alt="logo" />
         </div>
+        
         </Link>
         <div className=" block lg:hidden">
           <Menu
@@ -49,6 +57,9 @@ const Navbar = () => {
           <li className="font-medium font-[Nunito] hover:border-b-2 hover:border-b-blue-800   transition-all duration-500 ease-in-out">
             <Link to={"/resumebuilder"}>Resume Builder</Link>
           </li>
+          <div className="flex items-center space-x-4">
+          
+        </div>
         </ul>
       </div>
     </div>
