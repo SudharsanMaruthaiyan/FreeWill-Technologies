@@ -39,7 +39,7 @@ const Navbar = () => {
             <Link to={"/about"}>About Us</Link>
           </li>
           <li className="font-medium font-[Nunito] hover:border-b-2 hover:border-b-blue-800   transition-all duration-500 ease-in-out">
-            <Link to={"/services"}>Services</Link>
+            <Link to={"/service"}>Services</Link>
           </li>
           <li className="font-medium font-[Nunito] hover:border-b-2 hover:border-b-blue-800   transition-all duration-500 ease-in-out">
             <Link to={"/contact"}>Contact</Link>
