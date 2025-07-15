@@ -1,6 +1,7 @@
 import { Menu, X } from "lucide-react";
 import React, { useState } from "react";
 import { logo } from "../assets/image";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -32,16 +33,19 @@ const Navbar = () => {
       >
         <ul className="flex flex-col items-center lg:flex-row lg:justify-end gap-6">
           <li className="font-medium font-[Nunito] hover:border-b-2 hover:border-b-blue-800   transition-all duration-500 ease-in-out">
-            <a href="/">Home</a>
+            <Link to={"/"}>Home</Link>
           </li>
           <li className="font-medium font-[Nunito] hover:border-b-2 hover:border-b-blue-800   transition-all duration-500 ease-in-out">
-            <a href="/about">About Us</a>
+            <Link to={"/about"}>About Us</Link>
           </li>
           <li className="font-medium font-[Nunito] hover:border-b-2 hover:border-b-blue-800   transition-all duration-500 ease-in-out">
-            <a href="/service">Services</a>
+            <Link to={"/services"}>Services</Link>
           </li>
           <li className="font-medium font-[Nunito] hover:border-b-2 hover:border-b-blue-800   transition-all duration-500 ease-in-out">
-            <a href="/contact">Contact</a>
+            <Link to={"/contact"}>Contact</Link>
+          </li>
+          <li className="font-medium font-[Nunito] hover:border-b-2 hover:border-b-blue-800   transition-all duration-500 ease-in-out">
+            <Link to={"/resumebuilder"}>Resume Builder</Link>
           </li>
         </ul>
       </div>
